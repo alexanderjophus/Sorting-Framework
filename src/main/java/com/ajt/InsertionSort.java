@@ -5,7 +5,7 @@ import java.util.List;
 
 import static java.util.Collections.swap;
 
-final public class InsertionSort extends ISortable {
+final public class InsertionSort extends ISorter {
     @Override
     final public <T extends Comparable> List<T> apply(final List<T> unsorted) {
         List<T> list = new ArrayList<>(unsorted);

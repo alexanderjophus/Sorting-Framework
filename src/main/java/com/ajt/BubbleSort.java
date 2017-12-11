@@ -5,7 +5,7 @@ import java.util.List;
 
 import static java.util.Collections.swap;
 
-final public class BubbleSort extends ISortable {
+final public class BubbleSort extends ISorter {
     @Override
     final public <T extends Comparable> List<T> apply(List<T> unsorted) {
         List<T> list = new ArrayList<>(unsorted);
